@@ -8,6 +8,8 @@ Download from http://example.com/FIXME.
 
 ## Usage
 
+lein run Ajout de tache
+
 FIXME: explanation
 
     $ java -jar queue_day-0.1.0-standalone.jar [args]

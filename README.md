@@ -1,38 +1,42 @@
 # queue_day
 
-FIXME: description
+It take a file, queue-day.txt,
+
+add the task on top of it
+
+then print the file.
 
 ## Installation
 
-Download from http://example.com/FIXME.
+Install clojure, see https://clojure.org/guides/getting_started
+
+Install Leiningen, see https://leiningen.org/
 
 ## Usage
 
-lein run Ajout de tache
+```
+cat queue-day.txt
+# nothing
 
-FIXME: explanation
+$ lein run do this now
+2019-06-28 14:59:10 | do this now
 
-    $ java -jar queue_day-0.1.0-standalone.jar [args]
+$ lein run another task
+2019-06-28 14:59:16 | another task
+2019-06-28 14:59:10 | do this now
 
-## Options
+$ lein run answer to Brian
+2019-06-28 14:59:25 | answer to Brian
+2019-06-28 14:59:16 | another task
+2019-06-28 14:59:10 | do this now
 
-FIXME: listing of options this app accepts.
 
-## Examples
-
-...
-
-### Bugs
-
-...
-
-### Any Other Sections
-### That You Think
-### Might be Useful
+cat queue-day.txt
+2019-06-28 14:59:25 | answer to Brian
+2019-06-28 14:59:16 | another task
+2019-06-28 14:59:10 | do this now
+```
 
 ## License
 
-Copyright © 2016 FIXME
-
-Distributed under the Eclipse Public License either version 1.0 or (at
-your option) any later version.
+MIT
